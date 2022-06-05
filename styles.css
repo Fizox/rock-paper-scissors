@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(255, 234, 0);
+}
+.click{
+    height: 225px;
+    width: 225px;
+    cursor: pointer;
+    transition: 80ms;
+    background-color: rgb(255, 234, 0);
+}
+.theB{
+    display: flex;
+    justify-content: center;
+}
+.click:active{
+    transform: scale(0.8);
+}
+.count{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+.scor{
+    margin-left: 10px;
+    color: rgb(141, 138, 138);
+    font-size: 60px;
+
+}
+.you{
+    font-size:80px ;
+}
+.result-selection {
+    opacity: .5;
+    font-size: 4.5rem;
+  }
+.result-selection.winner {
+    opacity: 1;
+    font-size: 5.5rem;
+  }
+  h1{
+    font-family: 'Brush Script MT', cursive;
+    color: #fff;
+  }
+  .but{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
